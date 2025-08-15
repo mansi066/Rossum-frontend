@@ -1,18 +1,12 @@
-# Dependency directories
+# Node modules
 node_modules/
 
 # Build output
 dist/
+build/
 
-# System files
-.DS_Store
-Thumbs.db
-
-# IDE/editor settings
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
+# Vite cache
+.vite/
 
 # Logs
 npm-debug.log*
@@ -24,11 +18,28 @@ yarn-error.log*
 .env.local
 .env.*.local
 
-# Vercel deployment config (optional)
-.vercel/
+# Firebase
+.firebase/
+firestore.indexes.json
+firestore.rules
+storage.rules
 
-# Tailwind JIT cache
-.tailwind/
+# OS-specific files
+.DS_Store
+Thumbs.db
 
-# MacOS metadata
-*.DS_Store
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Testing
+coverage/
+
+# Misc
+*.log
+*.lock
+*.tmp
+*.bak
+*.swp
